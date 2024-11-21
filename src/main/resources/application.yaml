@@ -1,0 +1,7 @@
+spring:
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+  data:
+    mongodb:
+      uri: mongodb+srv://chay:sai200999@cluster0.b768o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: IMS2
